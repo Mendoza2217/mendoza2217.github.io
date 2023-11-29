@@ -1,0 +1,105 @@
+.fashion-body {
+    background-color: black !important;
+}
+
+.texto-info {
+    margin-top: 22px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-dos-body {
+    background-color: #FF8700;
+}
+.btn.btn-fashion{
+    background-color: #FF8700 !important;
+            border-color: #FFA100  !important;
+            border-radius: 0px;
+            height: 50px;
+            width: 300px;
+            margin-left: 20%;
+}
+footer {
+    padding: 20px;
+}
+
+.text-footer {
+    margin-left: 5%;
+}
+
+.redes-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.redes-container a {
+    text-decoration: none;
+}
+
+.redes-container img {
+    border-radius: 50%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.redes-container img:hover {
+    transform: scale(1.2);
+}
+
+/* Estilos específicos para la sección del título h5 */
+.title-section {
+    text-align: center;
+}
+
+.fashion-titulo {
+    font-size: 130px;
+    margin-bottom: 20px;
+}
+.btn-card-one {
+    background-color: black !important;
+    border-radius: 0px !important;
+    width: 300px;
+    height: 54px;
+}
+.btn-woman{
+    background-color: white !important;
+    border-radius: 0px !important; 
+    width: 300px;
+    height: 54px;
+    font-size: 25px !important;
+    font-weight: bolder  !important;
+}
+
+/* Media query para ajustar el tamaño del título en dispositivos pequeños */
+@media (max-width: 576px) {
+    .btn.btn-fashion{
+        background-color: #FF8700 !important;
+                border-color: #FFA100  !important;
+                border-radius: 0px;
+                margin-left: 40%;
+                height: 40px;
+                width: 70px;
+                font-size: 10px;
+    }
+    .car-img {
+        width: 200px;
+    }
+    .card-title {
+        font-size: 10px;
+    }
+    .imagen-inicio{
+        width: 200px;
+    }
+    .btn-card-one {
+        background-color: black !important;
+        border-radius: 0px !important;
+        width: 100px;
+        height: 35px;
+    }
+    .btn-woman{
+        background-color: white !important;
+        border-radius: 0px !important; 
+        width: 100px;
+        height: 35px;
+    }
+}
